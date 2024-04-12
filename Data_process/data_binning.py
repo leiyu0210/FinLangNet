@@ -81,7 +81,7 @@ def main():
 
     for num_bins in num_bins_list:
         bin_edges_dict_dz_numeric = {}
-        
+        bin_edges_dict_person_numeric = {} # the same as bin_edges_dict_dz_numeric
         for col in df_dz_numeric.columns:
             if col == 'cfrnid':  # Assuming 'cfrnid' is a column that should be skipped
                 continue
@@ -100,6 +100,8 @@ def main():
         with open(filename, 'wb') as handle:
             pickle.dump(bin_edges_dict_dz_numeric, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
+        return bin_edges_dict_dz_numeric, bin_edges_dict_person_numeric
+
 
 if __name__ == "__main__":
-    main()
+    bin_edges_dict_dz_numeric, bin_edges_dict_person_numeric = main()
