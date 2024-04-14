@@ -3,9 +3,8 @@
 
 FinLangNet: A Novel Deep Learning Framework for Credit Risk Prediction Using Linguistic Analogy in Financial Data
 
-The Performance Metrics across Different Models for Multiple Labels
 
-The Performance Metrics across Different Models for Multiple Labels
+The Performance Metrics across Different Models for Multiple Labels:
 
 | Model       | dob45dpd7 AUC/KS/Gini | **dob90dpd7 AUC/KS/Gini** | dob90dpd30 AUC/KS/Gini | dob120dpd7 AUC/KS/Gini | dob120dpd30 AUC/KS/Gini | dob180dpd7 AUC/KS/Gini | dob180dpd30 AUC/KS/Gini |
 |-------------|-----------------------|---------------------------|------------------------|------------------------|-------------------------|------------------------|------------------------|
