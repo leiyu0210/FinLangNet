@@ -3,6 +3,7 @@
 
 FinLangNet: A Novel Deep Learning Framework for Credit Risk Prediction Using Linguistic Analogy in Financial Data
 
+### See the Deployment Applications section: Deployment_applications.txt
 
 The Performance Metrics across Different Models for Multiple Labels:
 
