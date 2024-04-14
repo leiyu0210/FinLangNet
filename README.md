@@ -6,7 +6,7 @@ FinLangNet: A Novel Deep Learning Framework for Credit Risk Prediction Using Lin
 
 The Performance Metrics across Different Models for Multiple Labels:
 
-| Model + DeepFM +DNN | dob45dpd7 AUC/KS/Gini | **dob90dpd7 AUC/KS/Gini** | dob90dpd30 AUC/KS/Gini | dob120dpd7 AUC/KS/Gini | dob120dpd30 AUC/KS/Gini | dob180dpd7 AUC/KS/Gini | dob180dpd30 AUC/KS/Gini |
+| Model  +DeepFM +DNN | dob45dpd7 AUC/KS/Gini | **dob90dpd7 AUC/KS/Gini** | dob90dpd30 AUC/KS/Gini | dob120dpd7 AUC/KS/Gini | dob120dpd30 AUC/KS/Gini | dob180dpd7 AUC/KS/Gini | dob180dpd30 AUC/KS/Gini |
 |-------------|-----------------------|---------------------------|------------------------|------------------------|-------------------------|------------------------|------------------------|
 | LSTM        | 0.7780/0.4093/0.5560  | 0.7273/0.3286/0.4546       | 0.7610/0.3809/0.5221   | 0.7101/0.3021/0.4203   | 0.7362/0.3433/0.4725    | 0.6927/0.2776/0.3854   | 0.7098/0.3043/0.4196   |
 | GRU         | 0.7756/0.4041/0.5513  | 0.7259/0.3240/0.4518       | 0.7568/0.3716/0.5136   | 0.7093/0.3005/0.4185   | 0.7337/0.3357/0.4674    | 0.6906/0.2744/0.3813   | 0.7062/0.2975/0.4123   |
