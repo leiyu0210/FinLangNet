@@ -16,7 +16,7 @@ The Performance Metrics across Different Models for Multiple Labels:
 | Transformer | 0.7725/0.3982/0.5450  | 0.7254/0.3262/0.4508       | 0.7595/0.3798/0.5191   | 0.7097/0.3012/0.4194   | 0.7376/0.3454/0.4752    | 0.6930/0.2782/0.3859   | 0.7119/0.3067/0.4238   |
 | FinLangNet  | 0.7765/0.4073/0.5529  | **0.7299/0.3334/0.4598**   | 0.7635/0.3865/0.5269   | 0.7140/0.3091/0.4279   | 0.7413/0.3516/0.4826    | 0.6971/0.2851/0.3942   | 0.7157/0.3138/0.4313   |
 
-The code for the relationship between the processed input data and the language structure is detailed in: '''test_data_sample.ipynb'''
+The code for the relationship between the processed input data and the language structure is detailed in: **test_data_sample.ipynb**
 
 The tables summarize the results from ablation experiments on the FinLangNet model's different modules, focusing on the dob90dpd7 label, with metrics such as AUC, KS, and GINI shown for each variant.
 
