@@ -13,6 +13,9 @@ Considering the demands for stability and interpretability of model scores in do
 (3) Our model has been deployed online in 2024 for mid-loan business operations servicing millions of users. To ensure stability, we monitor vintage curves and bin delinquency rates weekly, alongside daily PSI (Population Stability Index) monitoring of features and output scores. The blended model demonstrates a 1.5 percentage point increase in the best KS compared to the base model, with stable gains observed across various customer segments.
 
 ### 3. Swap Set Analysis
+
+|         | XGboost | Number of overdue samples | Number of sample | Percentage samples | Percentage overdue | Passing rate | Overdue rate as a percentage of the passing sample |
+
 |         | (-inf, 472.0] | (472.0, 569.0] | (569.0, 651.0] | (651.0, 756.0] | (756.0, inf] | Number of overdue samples | Number of sample | Percentage samples | Percentage overdue | Passing rate | Overdue rate as a percentage of the passing sample |
 |-----------------|---------------|----------------|----------------|----------------|--------------|---------------------------|------------------|--------------------|--------------------|--------------|------------------------------------------------------|
 | (-inf, 473.0]   | 39.16%         | 22.95%         | 16.41%         | 12.98%         | 0.00%        | 232438                    | 658086           | 0.200009            | 35.32%             | 100.00%      | 16.11%                                               |
