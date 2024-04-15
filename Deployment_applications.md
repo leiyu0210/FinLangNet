@@ -14,7 +14,7 @@ Considering the demands for stability and interpretability of model scores in do
 
 ### 3. Swap Set Analysis
 
-|         | XGboost | Number of overdue samples | Number of sample | Percentage samples | Percentage overdue | Passing rate | Overdue rate as a percentage of the passing sample |
+|         | | | | | XGboost | | | |  | Number of overdue samples | Number of sample | Percentage samples | Percentage overdue | Passing rate | Overdue rate as a percentage of the passing sample |
 
 |         | (-inf, 472.0] | (472.0, 569.0] | (569.0, 651.0] | (651.0, 756.0] | (756.0, inf] | Number of overdue samples | Number of sample | Percentage samples | Percentage overdue | Passing rate | Overdue rate as a percentage of the passing sample |
 |-----------------|---------------|----------------|----------------|----------------|--------------|---------------------------|------------------|--------------------|--------------------|--------------|------------------------------------------------------|
