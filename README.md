@@ -4,7 +4,6 @@
 ### See the Deployment Applications section: Deployment_applications.md
 The code for the relationship between the processed input data and the language structure is detailed in: **test_data_sample.ipynb**
 
-[![PDF封面]()](https://github.com/leiyu0210/FinLangNet/blob/main/pic/FinLangNet.pdf)
 
 The Performance Metrics across Different Models for Multiple Labels:
 
