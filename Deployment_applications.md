@@ -16,7 +16,7 @@ Considering the demands for stability and interpretability of model scores in do
 
 
 
-| XGBoost\FinLangNet       | (-inf, 472.0] | (472.0, 569.0] | (569.0, 651.0] | (651.0, 756.0] | (756.0, inf] | Number of overdue samples | Number of sample | Percentage samples | Percentage overdue | Passing rate | Overdue rate as a percentage of the passing sample |
+| XGBoost\XGBoost+FinLangNet       | (-inf, 472.0] | (472.0, 569.0] | (569.0, 651.0] | (651.0, 756.0] | (756.0, inf] | Number of overdue samples | Number of sample | Percentage samples | Percentage overdue | Passing rate | Overdue rate as a percentage of the passing sample |
 |--------------------------|---------------|----------------|----------------|----------------|--------------|---------------------------|------------------|--------------------|--------------------|--------------|------------------------------------------------------|
 | **(-inf, 473.0]**        | 39.16%         | 22.95%         | 16.41%         | 12.98%         | 0.00%        | 232438                    | 658086           | 0.200009            | 35.32%             | 100.00%      | 16.11%                                               |
 | **(473.0, 557.0]**       | 27.49%         | 19.54%         | 14.50%         | 10.38%         | 8.10%        | 130362                    | 659658           | 0.200487            | 19.76%             | 80.00%       | 11.30%                                               |
@@ -29,3 +29,4 @@ Considering the demands for stability and interpretability of model scores in do
 | **Percentage overdue**    | 36.32%         | 19.67%         | 12.96%         | 7.89%          | 3.47%        | N/A                         | N/A              | N/A                 | N/A                | N/A          | N/A                                                  |
 | **Passing rate**          | 100.00%        | 79.89%         | 59.83%         | 39.82%         | 19.88%       | N/A                         | N/A              | N/A                 | N/A                | N/A          | N/A                                                  |
 | **Overdue rate as a percentage of the passing sample** | 16.11% | 11.02% | 8.12% | 5.68% | 3.47% | N/A | N/A | N/A | N/A | N/A | N/A |
+| **Relatively elevated delinquency rates** | **2.84%** |  |  |  | **-7.42%** |  |  |  |  |  |  |
