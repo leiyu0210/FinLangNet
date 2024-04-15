@@ -22,8 +22,8 @@ The tables summarize the results from ablation experiments on the FinLangNet mod
 
 | FinLangNet Module                                   | AUC    | KS     | GINI   |
 |-----------------------------------------|--------|--------|--------|
-| WithOut Multi-Head           | 0.7266 | 0.3282 | 0.4532 |
-| WithOut DependencyLayer      | 0.7303 | 0.3326 | 0.4606 |
-| WithOut Summary ClS                          | 0.7265 | 0.3279 | 0.4531 |
-| WithOut Feature ClS                          | 0.7278 | 0.3299 | 0.4556 |
-| WithOut Summary ClS and Feature ClS         | 0.7254 | 0.3262 | 0.4508 |
+| Without Multi-Head           | 0.7266 | 0.3282 | 0.4532 |
+| Without DependencyLayer      | 0.7303 | 0.3326 | 0.4606 |
+| Without Summary ClS                          | 0.7265 | 0.3279 | 0.4531 |
+| Without Feature ClS                          | 0.7278 | 0.3299 | 0.4556 |
+| Without Summary ClS and Feature ClS         | 0.7254 | 0.3262 | 0.4508 |
