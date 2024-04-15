@@ -18,13 +18,25 @@ The Performance Metrics across Different Models for Multiple Labels:
 
 The code for the relationship between the processed input data and the language structure is detailed in: **test_data_sample.ipynb**
 
-The tables summarize the results from ablation experiments on the FinLangNet model's different modules, focusing on the dob90dpd7 label, with metrics such as AUC, KS, and GINI shown for each variant.
 
 | FinLangNet Module                                   | AUC    | KS     | GINI   |
 |-----------------------------------------|--------|--------|--------|
-| Base           | 0.7299 | 0.3334 | 0.4598 |
+| Base           | 0.7299 | **0.3334** | 0.4598 |
 | Without Multi-Head           | 0.7266 | 0.3282 | 0.4532 |
 | Without DependencyLayer      | 0.7303 | 0.3326 | 0.4606 |
 | Without Summary ClS                          | 0.7265 | 0.3279 | 0.4531 |
 | Without Feature ClS                          | 0.7278 | 0.3299 | 0.4556 |
 | Without Summary ClS and Feature ClS         | 0.7254 | 0.3262 | 0.4508 |
+
+The tables summarize the results from ablation experiments on the FinLangNet model's different modules, focusing on the dob90dpd7 label, with metrics such as AUC, KS, and GINI shown for each variant.
+
+
+| Learning Rate | Bins | Label     | AUC    | KS     | GINI   |
+|---------------|------|-----------|--------|--------|--------|
+| 0.0005        | 32   | dob90dpd7 | 0.7252 | 0.3259 | 0.4505 |
+| 0.0005        | 8    | dob90dpd7 | 0.7299 | **0.3334** | 0.4598 |
+| 0.0005        | 16   | dob90dpd7 | 0.7298 | 0.3331 | 0.4597 |
+| 0.0005        | 64   | dob90dpd7 | 0.7223 | 0.3231 | 0.4446 |
+| 0.001         | 8    | dob90dpd7 | 0.7236 | 0.3227 | 0.4471 |
+This combined format efficiently illustrates how the different settings impact the performance metrics AUC, KS, and GINI on the dataset dob90dpd7. It makes it easier to compare results across the varying conditions directly.
+
