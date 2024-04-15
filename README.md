@@ -17,3 +17,13 @@ The Performance Metrics across Different Models for Multiple Labels:
 | FinLangNet  | 0.7765/0.4073/0.5529  | **0.7299/0.3334/0.4598**   | 0.7635/0.3865/0.5269   | 0.7140/0.3091/0.4279   | 0.7413/0.3516/0.4826    | 0.6971/0.2851/0.3942   | 0.7157/0.3138/0.4313   |
 
 The code for the relationship between the processed input data and the language structure is detailed in: '''test_data_sample.ipynb'''
+
+The tables summarize the results from ablation experiments on the FinLangNet model's different modules, focusing on the dob90dpd7 label, with metrics such as AUC, KS, and GINI shown for each variant.
+
+| FinLangNet Module                                   | AUC    | KS     | GINI   |
+|-----------------------------------------|--------|--------|--------|
+| WithOut Multi-Head           | 0.7266 | 0.3282 | 0.4532 |
+| WithOut DependencyLayer      | 0.7303 | 0.3326 | 0.4606 |
+| WithOut Summary ClS                          | 0.7265 | 0.3279 | 0.4531 |
+| WithOut Feature ClS                          | 0.7278 | 0.3299 | 0.4556 |
+| WithOut Summary ClS and Feature ClS         | 0.7254 | 0.3262 | 0.4508 |
