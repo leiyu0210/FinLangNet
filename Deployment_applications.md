@@ -13,7 +13,7 @@ Considering the demands for stability and interpretability of model scores in do
 (3) Our model has been deployed online in 2024 for mid-loan business operations servicing millions of users. To ensure stability, we monitor vintage curves and bin delinquency rates weekly, alongside daily PSI (Population Stability Index) monitoring of features and output scores. The blended model demonstrates a 1.5 percentage point increase in the best KS compared to the base model, with stable gains observed across various customer segments.
 
 ### 3. Swap Set Analysis
-| Bucket          | (-inf, 472.0] | (472.0, 569.0] | (569.0, 651.0] | (651.0, 756.0] | (756.0, inf] | Number of overdue samples | Number of sample | Percentage samples | Percentage overdue | Passing rate | Overdue rate as a percentage of the passing sample |
+|         | (-inf, 472.0] | (472.0, 569.0] | (569.0, 651.0] | (651.0, 756.0] | (756.0, inf] | Number of overdue samples | Number of sample | Percentage samples | Percentage overdue | Passing rate | Overdue rate as a percentage of the passing sample |
 |-----------------|---------------|----------------|----------------|----------------|--------------|---------------------------|------------------|--------------------|--------------------|--------------|------------------------------------------------------|
 | (-inf, 473.0]   | 39.16%         | 22.95%         | 16.41%         | 12.98%         | 0.00%        | 232438                    | 658086           | 0.200009            | 35.32%             | 100.00%      | 16.11%                                               |
 | (473.0, 557.0]  | 27.49%         | 19.54%         | 14.50%         | 10.38%         | 8.10%        | 130362                    | 659658           | 0.200487            | 19.76%             | 80.00%       | 11.30%                                               |
@@ -21,4 +21,8 @@ Considering the demands for stability and interpretability of model scores in do
 | (634.0, 731.0]  | 20.92%         | 15.39%         | 11.41%         | 7.78%          | 4.87%        | 54188                     | 653209           | 0.198527            | 8.30%              | 39.78%       | 6.01%                                                |
 | (731.0, inf]    | 33.33%         | 12.54%         | 9.71%          | 6.30%          | 3.16%        | 24542                     | 655703           | 0.199285            | 3.74%              | 19.93%       | 3.74%                                                |
 | Number of overdue samples   | 240396     | 129771      | 85344     | 51780        | 22669     |              |       |           |           |        |                                                |
-                                        
+| Number of  samples   | 661833     | 659743      | 658462     | 656056        | 654191     |              |       |           |           |        |                                                |
+|Percentage samples   | 0.201148     | 0.200512      | 0.200123     | 0.199392        | 0.198825     |              |       |           |           |        |                                                |
+| Percentage overdue   | 36.32%     | 19.67%      | 12.96%     | 7.89%         | 3.47%     |              |       |           |           |        |                                                |
+| passing rate   | 100.00%     | 79.89%      | 59.83%     | 39.82%        | 19.88%     |              |       |           |           |        |                                                |
+| assing rage Overdue rate as a percentage of the passing sample   | 16.11%     | 11.02%      | 8.12%     | 5.68%        | 3.47%     |              |       |           |           |        |                                                |
