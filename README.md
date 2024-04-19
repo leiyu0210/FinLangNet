@@ -3,7 +3,7 @@
 
 ### See the Deployment Applications section: Deployment_applications.md
 The code for the relationship between the processed input data and the language structure is detailed in: **test_data_sample.ipynb**
-
+We opened up some of our sample data: **data_sample.json**
 
 The Performance Metrics across Different Models for Multiple Labels:
 
