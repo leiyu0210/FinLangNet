@@ -1,4 +1,4 @@
-# FinLangNet: A Novel Deep Learning Framework for Credit Risk Prediction Using Linguistic Analogy in Financial Data
+# FinLangNet
 <img src="pic/logo.png" alt="Didi" title="Didi">
 
 **Paper: https://arxiv.org/pdf/2404.13004.pdf**
