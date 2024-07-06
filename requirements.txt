@@ -1,5 +1,5 @@
 asttokens==2.4.1
-certifi==2024.2.2
+certifi==2024.7.4
 charset-normalizer==3.3.2
 comm==0.2.2
 debugpy==1.8.1
