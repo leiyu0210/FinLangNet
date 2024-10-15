@@ -1,7 +1,6 @@
 # FinLangNet
 <img src="pic/logo.png" alt="Didi" title="Didi">
 
-**Old Paper: https://arxiv.org/pdf/2404.13004.pdf**
 
 ## The Core Module in FinLangNet：
 https://github.com/leiyu0210/TimeLangNet
