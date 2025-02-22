@@ -1,5 +1,4 @@
 # FinLangNet
-<img src="pic/logo.png" alt="Didi" title="Didi">
 
 
 ## The Core Module in FinLangNet：
